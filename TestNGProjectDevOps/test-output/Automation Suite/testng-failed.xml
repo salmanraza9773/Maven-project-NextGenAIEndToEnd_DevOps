@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegistrationDemoEndToEndTest(failed)">
+    <classes>
+      <class name="com.telus.testng.RegistrationDemoEndToEnd">
+        <methods>
+          <include name="successfulMessage"/>
+          <include name="navigateToRegistrationForm"/>
+          <include name="registerUserAccount"/>
+        </methods>
+      </class> <!-- com.telus.testng.RegistrationDemoEndToEnd -->
+    </classes>
+  </test> <!-- RegistrationDemoEndToEndTest(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->

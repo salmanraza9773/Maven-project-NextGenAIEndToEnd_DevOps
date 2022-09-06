@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-06T20:53:13 IST" name="Default suite" finished-at="2022-09-06T20:53:52 IST" duration-ms="38767">
+    <groups>
+    </groups>
+    <test started-at="2022-09-06T20:53:13 IST" name="Default test" finished-at="2022-09-06T20:53:52 IST" duration-ms="38767">
+      <class name="com.telus.testng.RegistrationDemoEndToEnd">
+        <test-method signature="launchApplication()[pri:1, instance:com.telus.testng.RegistrationDemoEndToEnd@1de5f259]" started-at="2022-09-06T20:53:13 IST" name="launchApplication" finished-at="2022-09-06T20:53:36 IST" duration-ms="22092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="navigateToRegistrationForm()[pri:2, instance:com.telus.testng.RegistrationDemoEndToEnd@1de5f259]" started-at="2022-09-06T20:53:36 IST" name="navigateToRegistrationForm" finished-at="2022-09-06T20:53:42 IST" duration-ms="6733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToRegistrationForm -->
+        <test-method signature="registerUserAccount()[pri:3, instance:com.telus.testng.RegistrationDemoEndToEnd@1de5f259]" started-at="2022-09-06T20:53:42 IST" name="registerUserAccount" finished-at="2022-09-06T20:53:48 IST" duration-ms="5613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserAccount -->
+        <test-method signature="successfulMessage()[pri:4, instance:com.telus.testng.RegistrationDemoEndToEnd@1de5f259]" started-at="2022-09-06T20:53:48 IST" name="successfulMessage" finished-at="2022-09-06T20:53:48 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulMessage -->
+        <test-method signature="closeApplication()[pri:5, instance:com.telus.testng.RegistrationDemoEndToEnd@1de5f259]" started-at="2022-09-06T20:53:48 IST" name="closeApplication" finished-at="2022-09-06T20:53:52 IST" duration-ms="4162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.telus.testng.RegistrationDemoEndToEnd -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

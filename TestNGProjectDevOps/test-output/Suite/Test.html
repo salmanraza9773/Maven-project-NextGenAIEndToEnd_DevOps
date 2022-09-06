@@ -1,0 +1,222 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 08 18:17:09 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>22 seconds (22031 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.telus.testng.RegistrationDemoEndToEnd.successfulMsg()'><b>successfulMsg</b><br>Test class: com.telus.testng.RegistrationDemoEndToEnd<br/>
+<a href="#Output-103118806" onClick='toggleBox("Output-103118806", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-103118806" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-103118806">
+The Registration Successful Message is Displayed.<br/>
+Transaction Id is  NXTGEN1937465<br/>
+The Actual and Expected Message of Successful Registration are Same.<br/>
+The Actual Successful Registration Message is Registration Form is Successfully Submitted. The Transaction ID : NXTGEN1937465<br/>
+The Expected Message of Successful Registration is Registration Form is Successfully Submitted.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.telus.testng.RegistrationDemoEndToEnd@15eb5ee5</td></tr>
+<tr>
+<td title='com.telus.testng.RegistrationDemoEndToEnd.navigateToRegistrationForm()'><b>navigateToRegistrationForm</b><br>Test class: com.telus.testng.RegistrationDemoEndToEnd<br/>
+<a href="#Output-1988939205" onClick='toggleBox("Output-1988939205", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1988939205" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1988939205">
+
+QA Automation is Displayed.<br/>
+Practice Automation is Displayed.<br/>
+Registration Form is Displayed.<br/>
+Registration Page is Launched.<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.telus.testng.RegistrationDemoEndToEnd@15eb5ee5</td></tr>
+<tr>
+<td title='com.telus.testng.RegistrationDemoEndToEnd.closeApplication()'><b>closeApplication</b><br>Test class: com.telus.testng.RegistrationDemoEndToEnd<br/>
+<a href="#Output-1237144823" onClick='toggleBox("Output-1237144823", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1237144823" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1237144823">
+
+Application Closed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.telus.testng.RegistrationDemoEndToEnd@15eb5ee5</td></tr>
+<tr>
+<td title='com.telus.testng.RegistrationDemoEndToEnd.registerUserAccount()'><b>registerUserAccount</b><br>Test class: com.telus.testng.RegistrationDemoEndToEnd<br/>
+<a href="#Output-1069584108" onClick='toggleBox("Output-1069584108", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1069584108" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1069584108">
+
+The Title is Displayed.<br/>
+The Actual Title is Register For Demo<br/>
+The First Name is Displayed.<br/>
+The First Name is Enabled.<br/>
+The First Name is Salman<br/>
+---------------------------------------------------------<br/>
+The Last Name is Displayed.<br/>
+The Last Name is Enabled.<br/>
+The Last Name is Raza<br/>
+---------------------------------------------------------<br/>
+Gender is Displayed.<br/>
+Gender is Enabled.<br/>
+Gender Male is Selected.<br/>
+---------------------------------------------------------<br/>
+The Street Address is Displayed.<br/>
+The Street Address is Enabled.<br/>
+The Street Address is Siwan,Bihar<br/>
+---------------------------------------------------------<br/>
+Apartment is Displayed.<br/>
+Apartment is Enabled.<br/>
+The Apartment Number is 42.<br/>
+---------------------------------------------------------<br/>
+The State is Displayed.<br/>
+The State is Enabled.<br/>
+The State is Bihar.<br/>
+---------------------------------------------------------<br/>
+The Postal Zip Code is Displayed.<br/>
+The Postal Zip Code is Enabled.<br/>
+The Postal Zip Code is 841226<br/>
+---------------------------------------------------------<br/>
+Country is Displayed.<br/>
+The Country is Enabled.<br/>
+Austria is selected.<br/>
+---------------------------------------------------------<br/>
+Email is Displayed.<br/>
+Email is Enabled.<br/>
+The Email is salmanraza1306@gmail.com<br/>
+---------------------------------------------------------<br/>
+The Date of Demo is Displayed.<br/>
+The Date of Demo is Enabled.<br/>
+The Date of Demo is 30/07/2022<br/>
+---------------------------------------------------------<br/>
+The Convenient Time HH is Displayed.<br/>
+The Convenient Time HH is Enabled.<br/>
+05 is Selected<br/>
+Convenient Time MM is Displayed.<br/>
+The Convenient Time MM is Enabled.<br/>
+10 is Selected<br/>
+---------------------------------------------------------<br/>
+Mobile is Displayed.<br/>
+Mobile is Enabled.<br/>
+The Mobile Number is 9773782031<br/>
+---------------------------------------------------------<br/>
+The Functional Testing is Displayed.<br/>
+The Functional Testing is Enabled.<br/>
+The Funtional Testing is Selected.<br/>
+---------------------------------------------------------<br/>
+The TestNg is Displayed.<br/>
+The TestNg is Enabled.<br/>
+The TestNg is Selected.<br/>
+---------------------------------------------------------<br/>
+Enter Your Query is Displayed.<br/>
+The Query is Enabled.<br/>
+The Query is How to opt for a course<br/>
+---------------------------------------------------------<br/>
+The Verification Box is Displayed.<br/>
+The Verification Box is Enabled.<br/>
+The Verification Value 99<br/>
+---------------------------------------------------------<br/>
+The Submit Button is Displayed.<br/>
+The Submit Button is Enabled.<br/>
+Submit Button is Clicked.<br/>
+---------------------------------------------------------<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.telus.testng.RegistrationDemoEndToEnd@15eb5ee5</td></tr>
+<tr>
+<td title='com.telus.testng.RegistrationDemoEndToEnd.launchApplication()'><b>launchApplication</b><br>Test class: com.telus.testng.RegistrationDemoEndToEnd<br/>
+<a href="#Output-731243659" onClick='toggleBox("Output-731243659", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-731243659" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-731243659">
+Application Launched.<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.telus.testng.RegistrationDemoEndToEnd@15eb5ee5</td></tr>
+</table><p>
+</body>
+</html>
