@@ -12,7 +12,6 @@ import org.openqa.selenium.support.ui.Select;
 public class RegistrationDemoEndToEnd {
 
 	public WebDriver driver;
-        System.out.println("Git configuraiton with jenkins successful");
 	// Salman Raza
 	// Parameterization of input values.
 	String firstNamePathInput = "Salman";
@@ -57,7 +56,8 @@ public class RegistrationDemoEndToEnd {
 
 	@Test(priority = 1)
 	public void launchApplication() {
-
+                // Git Configuration with jenkins
+		 System.out.println("Git configuraiton with jenkins successful");
 		// Set the system property for the Chrome driver.
 		System.setProperty("webdriver.chrome.driver", ".\\Drivers\\chromedriver.exe");
 
