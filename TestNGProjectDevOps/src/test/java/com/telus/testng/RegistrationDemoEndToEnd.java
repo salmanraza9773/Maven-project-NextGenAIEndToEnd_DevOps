@@ -12,7 +12,8 @@ import org.openqa.selenium.support.ui.Select;
 public class RegistrationDemoEndToEnd {
 
 	public WebDriver driver;
-        // Salman Raza
+        System.out.println("Git configuraiton with jenkins successful");
+	// Salman Raza
 	// Parameterization of input values.
 	String firstNamePathInput = "Salman";
 	String lastNamePathInput = "Raza";
