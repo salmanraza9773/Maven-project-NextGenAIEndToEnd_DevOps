@@ -12,6 +12,8 @@ import org.openqa.selenium.support.ui.Select;
 public class RegistrationDemoEndToEnd {
 
 	public WebDriver driver;
+	
+	// Creating a new branch on github and commiting  and checking auto build on jenkins
 	// Salman Raza
 	// Parameterization of input values.
 	String firstNamePathInput = "Salman";
